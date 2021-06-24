@@ -68,7 +68,7 @@
             </a>
           </div>
       </div>
-      <div class="md:w-1/3 px-5 py-3 flex flex-col flex-start">
+      <div class="mt-10 sm:mt-0 md:w-1/3 px-5 py-3 flex flex-col flex-start">
             <p class="text-md font-bold text-left">Newsletter</p>
             <p class="text-gray-500 text-sm text-left">To get more info and update from us at any moment of recruitment and more, lets have your email address for the newsletter.</p>
             <input type="text" class="w-full mt-3 rounded-lg p-2 bg-gray-200  placeholder-white::placeholder text-white hover:bg-white focus:outline-none hover:text-black" placeholder="Enter your Email Address">
