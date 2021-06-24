@@ -23,8 +23,8 @@
       <div class="mt-6 mb-6 w-10/12 mx-auto">
           <p class="topic text-lilac-light text-4xl font-bold p-4 sm:p-0">Our Causes</p>
           <div class="block my-4 mx-auto w-full sm:flex sm:h-72 bg-white items-center justify-between">
-            <div class="w-80 sm:w-96 h-56 mx-auto">
-              <img class="h-56 w-80 sm:w-96" src="../assets/undraw_Process_re_gws7.svg" alt="">
+            <div class="w-72 sm:w-96 h-56 mx-auto">
+              <img class="h-56 w-72 sm:w-96" src="../assets/undraw_Process_re_gws7.svg" alt="">
             </div>
             <div class="w-80 sm:w-96 mx-auto">
               <p class="topic text-lilac-light text-3xl py-3 font-semibold">We Inspire</p>
@@ -32,22 +32,22 @@
             </div>
           </div>
             <div class="block sm:flex bg-white sm:rounded-lg sm:bg-lilac-light sm:bg-opacity-10 p-5 my-4 w-full sm:h-72 bg-white items-center justify-between">
-              <div class="sm:hidden w-80 sm:w-96 h-56 mx-auto">
-                <img class="h-56 w-80 sm:w-96" src="../assets/undraw_education_f8ru (1).svg" alt="">
+              <div class="sm:hidden w-72 sm:w-96 h-56 mx-auto">
+                <img class="h-56 w-72 sm:w-96" src="../assets/undraw_education_f8ru (1).svg" alt="">
               </div>
-              <div class="w-80 sm:w-96 mx-auto">
+              <div class="w-72 sm:w-96 mx-auto">
                 <p class="topic text-lilac-light text-3xl py-3 font-semibold">We Educate</p>
                 <p class="text-left text-black font-thin  text-sm text-normal text-left leading-loose">We equip youths in North-East with skills to succeed in today’s economy, tackling unemployment by partnering with individuals and organisations.</p>
               </div>
               <div class="hidden sm:block w-80 sm:w-96 h-56 ">
-                <img class="h-56 w-80 sm:w-96" src="../assets/undraw_education_f8ru (1).svg" alt="">
+                <img class="h-56 w-72 sm:w-96" src="../assets/undraw_education_f8ru (1).svg" alt="">
               </div>
           </div>
           <div class="block my-4 w-full sm:flex sm:h-72 bg-white items-center justify-between">
-            <div class="w-80 sm:w-96 h-56 mx-auto">
-              <img class="h-56 w-80 sm:w-96" src="../assets/undraw_connected_world_wuay.svg" alt="">
+            <div class="w-72 sm:w-96 h-56 mx-auto">
+              <img class="h-56 w-72 sm:w-96" src="../assets/undraw_connected_world_wuay.svg" alt="">
             </div>
-            <div class="w-80 sm:w-96 mx-auto">
+            <div class="w-72 sm:w-96 mx-auto">
               <p class="topic text-lilac-light text-3xl py-3 font-semibold">We Connect</p>
               <p class="text-left text-black font-thin text-sm text-normal text-left leading-loose">Connecting you to a world of information and insight. intelligence platform enabling faster, smarter, and more efficient processes</p>
             </div>
