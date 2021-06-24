@@ -3,7 +3,7 @@
       <Header/>
       <div class="w-full">
           <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-            <p class="text-center">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</p>
+            <p class="topic text-center">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</p>
           </div>
           <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
             <div class="flex text-sm justify-between py-2">
@@ -54,6 +54,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 </style>

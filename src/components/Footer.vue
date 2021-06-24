@@ -1,16 +1,8 @@
 <template>
   <div class="bg-gray-100 footer">
      <div class="block md:flex md:justify-between md:items-center md:w-full py-5 px-7">
-      <div class="text-gray-300 md:w-1/3 px-5">
-          <svg class="h-8 w-8" width="187" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M60.06 30h3.77l3.15-11.09L70.14 30h3.77l4.7-16.8h-3.47l-3.22 12.46-3.53-12.46h-2.83l-3.5 12.46-3.22-12.46h-3.48l4.7 16.8zm24.61.34A6.29 6.29 0 0091.03 24a6.29 6.29 0 00-6.36-6.34A6.27 6.27 0 0078.34 24c0 3.58 2.8 6.34 6.33 6.34zm0-3.03A3.19 3.19 0 0181.43 24a3.19 3.19 0 013.24-3.31A3.2 3.2 0 0187.94 24a3.2 3.2 0 01-3.27 3.31zm11.64-7.25V18h-3.1v12h3.1v-5.74c0-2.52 2.04-3.24 3.65-3.04v-3.46c-1.52 0-3.03.67-3.65 2.3zM112.83 30l-4.97-6.07L112.7 18h-3.7l-4.13 5.28V13.2h-3.1V30h3.1v-5.45l4.37 5.45h3.6z" fill="#fff"/>
-              <path d="M120.09 30.34c2.35 0 4.4-1.25 5.42-3.12l-2.69-1.54a2.96 2.96 0 01-2.75 1.58 3.14 3.14 0 01-3.22-3.26 3.15 3.15 0 013.22-3.29c1.22 0 2.25.63 2.73 1.61l2.67-1.56a6.04 6.04 0 00-5.38-3.1 6.2 6.2 0 00-6.34 6.34 6.2 6.2 0 006.34 6.34zm16-12.34v1.42a4.78 4.78 0 00-3.92-1.76c-3.2 0-5.83 2.76-5.83 6.34s2.64 6.34 5.83 6.34c1.75 0 3.05-.68 3.91-1.76V30h3.1V18h-3.1zm-3.34 9.38a3.22 3.22 0 01-3.31-3.38 3.22 3.22 0 013.3-3.38 3.23 3.23 0 013.34 3.38 3.23 3.23 0 01-3.33 3.38zm16.1-6.4V18h-2.71v-3.36l-3.1.94V18h-2.09v2.98h2.1v4.99c0 3.24 1.46 4.51 5.8 4.03v-2.8c-1.78.09-2.71.06-2.71-1.23v-5h2.71zm3.72-4.42c1.06 0 1.92-.86 1.92-1.9 0-1.03-.87-1.92-1.92-1.92-1.03 0-1.9.9-1.9 1.92 0 1.04.87 1.9 1.9 1.9zM151.03 30h3.1V18h-3.1v12zm11.65.34a6.29 6.29 0 006.35-6.34 6.29 6.29 0 00-6.35-6.34 6.27 6.27 0 00-6.34 6.34c0 3.58 2.8 6.34 6.34 6.34zm0-3.03a3.19 3.19 0 01-3.25-3.31 3.19 3.19 0 013.25-3.31 3.2 3.2 0 013.26 3.31 3.2 3.2 0 01-3.26 3.31zm15.2-9.65c-1.6 0-2.85.6-3.57 1.68V18h-3.1v12h3.1v-6.48c0-2.09 1.13-2.98 2.64-2.98 1.4 0 2.38.84 2.38 2.48V30h3.1v-7.37c0-3.19-2-4.97-4.55-4.97z" fill="#A3BFFA"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M42.91 11.8l-7.7-4.45V28h9v2h-44v-2h4V15.28l-3.72.93L0 14.27 21.09 9h3.12a9.55 9.55 0 00-.68 2.56l-.48 3.97 5.16-2.98V28h5V7.36l-7.7 4.44A7.5 7.5 0 0128.09 7h-4.12a7.49 7.49 0 016.65-2.97L25 .8a7.49 7.49 0 019.2 2.75A7.49 7.49 0 0143.41.8l-5.6 3.23.65-.03a7.49 7.49 0 016 3h-4.12a7.5 7.5 0 012.57 4.8zM24.21 28V18h-6v10h6zm-11-8a2 2 0 11-4 0 2 2 0 014 0z" fill="#A3BFFA"/>
-          </svg>
-          <p class="text-gray-500 text-sm text-left">NorthEast Innovation Hub is a dynamic community of creative minds and game changers collaborating on innovative solutions to the challenges faced by communities in North-Eastern part of Nigeria and the World as a whole.</p>
-      </div>
-      <div class="md:w-1/3 px-5 py-2">
-          <p class="text-md font-bold text-left">Stay In Touch</p>
+      <div class=" md:w-1/3 px-5">
+          <p class="text-md font-bold text-center ">Contact</p>
           <div class="flex">
             <svg class="h-6 w-6 stroke-current text-gray-500 -mt-0.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="10" r="3"/>
@@ -25,9 +17,41 @@
             </svg>
             <p class="text-gray-500 text-sm ml-2 ">info@humanitarianihub.org</p>
           </div>
-          <div class="flex w-full mt-3">
-            <button class="w-1/2 p-2  rounded-lg bg-lilac-light border border-transparent hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Contact Us</button>
-            <button class="w-1/2 ml-3 p-2 rounded-lg  border border-gray-500 hover:bg-lilac-light hover:border-0 hover:text-white">Check Directions</button>
+                    <div class="flex w-full mt-3">
+            <button class="w-1/2 p-2  rounded-lg bg-lilac-light border border-transparent hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black" @click ="toggleModal1 =!toggleModal1">Contact Us</button>
+             <div v-if="toggleModal1" class=" fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                  <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                    <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal1 =!toggleModal1" >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                    <form  class="mb-4 lg:my-8 text-left mx-auto bg-white sm:my-0  text-gray-600 font-medium">
+                      <p class="pb-4 lg:pb-6 text-lilac-light text-lg text-center">Contact Us</p>
+                      <div class="w-full">
+                          <label for="name" class="">Name</label>
+                          <input type="text" class="w-full mt-3 rounded-md p-2 bg-gray-200 outline-none border border-transparent focus:border-gray-200  focus:bg-white">
+                      </div>
+                      <div class="w-full">
+                          <label for="name" class="">Phone Number</label>
+                          <input type="text" class="w-full mt-3 rounded-md p-2 bg-gray-200 outline-none border border-transparent focus:border-gray-200  focus:bg-white">
+                      </div>
+                      <div class="w-full">
+                          <label for="name" class="">Email Adddress</label>
+                          <input type="text" class="w-full mt-3 rounded-md p-2 bg-gray-200 outline-none border border-transparent focus:border-gray-200  focus:bg-white">
+                      </div>
+                      <div class="w-full">
+                          <label for="name" class="">Message</label>
+                          <textarea type="text" class="w-full mt-3 h-24 rounded-md p-2 bg-gray-200 outline-none border border-transparent focus:border-gray-200  focus:bg-white">
+                          </textarea>
+                      </div>
+                      <button class="w-30 mt-3 p-2 rounded-lg bg-lilac-light border border-transparent hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Send Message</button>
+                  </form>
+                  </div>
+                </div>
+              </div>
+              <a class="w-1/2" href="https://www.google.com/maps/dir//Northeast+Humanitarian+Innovation+Hub,+No3+Legom+close,+off+kashim+way,+Jimeta-Yola,+640101,+Jimeta,+Nigeria/@9.2714431,12.4527295,6245m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x10fc6b61cee85221:0x471b708b0e967449!2m2!1d12.4691087!2d9.2714157?hl=en-GB" target="_blank">
+                <button class="w-full ml-3 p-2 rounded-lg focus:ouline-none border border-gray-500 hover:bg-lilac-light hover:border-0 hover:text-white">Check Directions</button>
+              </a>
           </div>
           <div class="flex w-full mt-3 text-gray-500 space-x-4 items-center">
             <a href="#">
@@ -45,10 +69,10 @@
           </div>
       </div>
       <div class="md:w-1/3 px-5 py-3 flex flex-col flex-start">
-            <p class="text-md font-bold text-left">NEWSLETTER</p>
+            <p class="text-md font-bold text-left">Newsletter</p>
             <p class="text-gray-500 text-sm text-left">To get more info and update from us at any moment of recruitment and more, lets have your email address for the newsletter.</p>
             <input type="text" class="w-full mt-3 rounded-lg p-2 bg-gray-200  placeholder-white::placeholder text-white hover:bg-white focus:outline-none hover:text-black" placeholder="Enter your Email Address">
-            <button class="w-full mt-3 p-2 rounded-lg border border-transparent bg-lilac-light  hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Subscribe</button>
+            <button class="focus:ouline-none w-1/4 mt-3 p-2 rounded-lg border border-transparent bg-lilac-light  hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Subscribe</button>
       </div>
     </div>
     <div class=" border-t border-gray-300 mx-10 py-3">
@@ -60,6 +84,11 @@
 <script>
 export default {
     name: 'Footer',
+    data(){
+    return {
+      toggleModal1: false,
+      }
+    },
     methods: {
         getCurrYear(){
             return new Date().getFullYear();

@@ -11,6 +11,8 @@ import Nemacathon from '../views/Nemacathon.vue';
 import Workspaces from '../views/Workspaces.vue';
 import Blog from '../views/Blog.vue';
 import SingleBlog from '../views/SingleBlog.vue';
+import Workspace from '../views/workspace/index.vue';
+import Cyberspace from '../views/workspace/cyberspace.vue';
 
 Vue.use(VueRouter)
 
@@ -77,6 +79,16 @@ const routes = [
     path: '/singleblog',
     name: 'singleBlog',
     component: SingleBlog
+  },
+  {
+    path: '/workspace',
+    name: 'workspace',
+    component: Workspace
+  },
+  {
+    path: '/workspace/cyberspace',
+    name: 'cyberspace',
+    component:Cyberspace
   },
 ]
 

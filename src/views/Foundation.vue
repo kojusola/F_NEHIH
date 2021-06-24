@@ -2,7 +2,7 @@
   <div class="w-full">
     <Header/>
       <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-        <p class="text-center">The Humanitarian Innovation Foundation (HIF)</p>
+        <p class="topic text-center">The Humanitarian Innovation Foundation (HIF)</p>
       </div>
       <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
         <p class="my-1">The Humanitarian Innovation Foundation (HIF) is a Non-profit Organization duly registered with Corporate Affairs Corporation of Nigeria. Part of the core objectives of The Humanitarian Innovation Foundation is the socio-economic empowerment of women and youth groups in particular and the society in general.</p>
@@ -23,7 +23,7 @@
             </svg>
           </div>
           <div class="sm:w-3/6 ">
-              <p class="text-lilac-light text-xl">Women and Youth Initiative on COVID-19</p>
+              <p class="topic text-lilac-light text-xl">Women and Youth Initiative on COVID-19</p>
               <div class=" my-5  text-sm text-normal text-left text-justify leading-loose" >
                   <p class="my-1">This is a partnership between the Humanitarian Innovation Foundation (HIF) and the British Council/European Union through the “Managing Conflict in Nigeria” (MCN) programme to curb the spread of the COVID-19 pandemic in selected rural areas of Adamawa State.</p>
                   <p class="my-1">The project covers the period from the launch of the HIF in late 2020 to January 2021</p>
@@ -42,7 +42,7 @@
             </svg>
           </div>
           <div class="sm:w-3/6 ">
-              <p class="text-lilac-light text-xl">16 Days of Activism</p>
+              <p class="topic text-lilac-light text-xl">16 Days of Activism</p>
               <div class=" my-5  text-sm text-normal text-left text-justify leading-loose" >
                   <p class="my-1">The HIF partnership with the British Council and EU under the MCN Project coordinated efforts and drove conversations around advocacy in order to accelerate youth inclusion, call for institutional and community engagement around messaging, educating and concrete policy response to gender-based violence in the region, especially in respect to the covid-19 pandemic.</p>
                   <p class="my-1">A series of activities ranging from secondary school quiz Competitions, Peace Walk and Webinars were held to commemorate the “16 Days of Advocacy 2020”.</p>
@@ -75,6 +75,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 </style>

@@ -3,7 +3,7 @@
       <Header/>
       <div class="">
           <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-            <p class="text-center">Blog</p>
+            <p class="topic text-center">Blog</p>
           </div>
           <div class="w-11/12 sm:w-10/12 mx-auto">
               <div class="w-full py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">  
@@ -11,7 +11,7 @@
                     <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-2xl">
                     <img class="w-full" src="../assets/blog.jpeg" alt="Mountain">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-sm text-lilac-light mb-2">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</div>
+                        <div class="topic font-bold text-sm text-lilac-light mb-2">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</div>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <div class="flex justify-between text-sm">
@@ -41,7 +41,7 @@
                     <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-2xl">
                     <img class="w-full" src="../assets/blog.jpeg" alt="Mountain">
                     <div class="px-6 py-4">
-                        <div class="font-bold text-sm text-lilac-light mb-2">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</div>
+                        <div class="topic font-bold text-sm text-lilac-light mb-2">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</div>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <div class="flex justify-between text-sm">
@@ -85,6 +85,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 </style>
