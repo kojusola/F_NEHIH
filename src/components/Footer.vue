@@ -2,7 +2,7 @@
   <div class="bg-gray-100 footer">
      <div class="block md:flex md:justify-between md:items-center md:w-full py-5 px-7">
       <div class=" md:w-1/3 px-5">
-          <p class="text-md font-bold text-center ">Contact</p>
+          <p class="text-md font-bold text-left ">Contact</p>
           <div class="flex">
             <svg class="h-6 w-6 stroke-current text-gray-500 -mt-0.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="10" r="3"/>
@@ -68,11 +68,11 @@
             </a>
           </div>
       </div>
-      <div class="mt-10 sm:mt-0 md:w-1/3 px-5 py-3 flex flex-col flex-start">
+      <div class="mt-10 md:mt-0 md:w-1/3 px-5 py-3 flex flex-col flex-start">
             <p class="text-md font-bold text-left">Newsletter</p>
             <p class="text-gray-500 text-sm text-left">To get more info and update from us at any moment of recruitment and more, lets have your email address for the newsletter.</p>
             <input type="text" class="w-full mt-3 rounded-lg p-2 bg-gray-200  placeholder-white::placeholder text-white hover:bg-white focus:outline-none hover:text-black" placeholder="Enter your Email Address">
-            <button class="focus:ouline-none w-1/2 sm:w-1/4 mt-3 p-2 rounded-lg border border-transparent bg-lilac-light  hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Subscribe</button>
+            <button class="focus:ouline-none w-1/2 md:w-1/2 lg:1/4 mt-3 p-2 rounded-lg border border-transparent bg-lilac-light  hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black">Subscribe</button>
       </div>
     </div>
     <div class=" border-t border-gray-300 mx-10 py-3">

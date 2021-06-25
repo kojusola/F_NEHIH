@@ -56,19 +56,19 @@
       <div class="bg-gray-900 py-4">
         <div class="text-lilac-light w-10/12 mx-auto">
           <p class="topic text-4xl font-bold p-4 sm:p-0 my-3">About Us</p>
-          <div class="block sm:flex justify-between items-center">
-            <div class="w-10/12 mx-auto sm:w-1/4 items-center">
+          <div class="block md:flex justify-between items-center">
+            <div class="w-10/12 mx-auto md:w-1/4 items-center">
               <p class="border-2 rounded-full border-lilac-light w-7 text-center mx-auto my-2">1</p>
               <p class="text-xl font-semibold mb-2">Who We Are</p>
               <p class="text-sm text-left text-sm text-normal text-left leading-loose">NorthEast Innovation Hub is a dynamic community of creative minds and game changers collaborating on innovative solutions to the challenges faced by our communities.</p>
             </div>
-            <div class="w-10/12 mx-auto sm:w-1/4">
+            <div class="w-10/12 mx-auto md:w-1/4">
               <p class="border-2 rounded-full border-lilac-light w-7 mx-auto my-2">2</p>
               <p class="text-xl font-semibold mb-2">What We Do</p>
               <p class="text-sm text-left text-sm text-normal text-left leading-loose">Bring together IDPs, humanitarians, public/private sectors with the shared goal of scaling effective, efficient and ethical solutions to common humanitarian challenges.</p>
             </div>
-            <div class="w-10/12 mx-auto sm:w-1/4">
-              <p class="border-2 rounded-full border-lilac-light w-7 mx-auto my-2">3</p>
+            <div class="w-10/12 mx-auto md:w-1/4">
+              <p class="border-2 rounded-full border-lilac-light w-7 mx-auto my-2 mt-1">3</p>
               <p class="text-xl font-semibold mb-2">Why the NorthEast</p>
               <p class="text-sm text-left text-sm text-normal text-left leading-loose">The North-East region has been severely affected by the conflict, which exacerbated the pre-existing socio –economic developmental challenges in this region.</p>
             </div>
@@ -208,7 +208,7 @@
           </div>
           <div class="w-10/12 mx-auto my-20">
             <p class="topic text-lilac-light text-4xl font-bold p-4 pb-8 sm:p-0">Testimonials</p>
-            <div class="hidden lg:block w-full item-center">
+            <div class="hidden md:block w-full item-center">
               <VueSlickCarousel v-bind="slickOptions" >
                 <div class="p-6">
                   <div class="shadow-sm rounded-xl p-3 m-5 w-62 text-center  divide-y divide-gray-200">
@@ -256,7 +256,7 @@
                 </div>  
               </VueSlickCarousel>
             </div>
-              <div class="block lg:hidden w-full item-center">
+              <div class="block md:hidden w-full item-center">
               <VueSlickCarousel v-bind="slickOptions2" >
                 <div class="p-6">
                   <div class="shadow-sm rounded-xl p-3 m-5 w-62 text-center  divide-y divide-gray-200">
