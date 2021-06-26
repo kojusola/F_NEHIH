@@ -9,13 +9,18 @@
           <div class="text-left sm:text-center w-3/4 hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
           <p class=" text-xl sm:text-3xl  font-bold text-white">WELCOME TO NORTH EAST INNOVATION HUB</p>
           <p class=" text-md text-white sm:text-xl  sm:ml-2">NorthEast Innovation Hub is a dynamic community of creative minds and game changers collaborating on innovative solutions to the challenges faced by communities in North-Eastern part of Nigeria and the World as a whole.</p>
-          <button class="py-3 px-5  rounded-lg bg-lilac-logo text-white border border-transparent" @click ="toggleModal =!toggleModal">Take a Tour</button>
+          <button class="py-3 px-5  rounded-lg bg-lilac-logo text-white border border-transparent focus:outline-none" @click ="toggleModal =!toggleModal">Take a Tour</button>
         </div>
-        <div v-if="toggleModal" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50">
-          <div class="relative mx-auto w-auto max-w-2xl">
-            <div class="absolute inset-0 w-full bg-black opacity-50">
-               <video-embed :params="{autoplay: 1}" src="../assets/NEHIH.mp4.crdownload"></video-embed>
+        <div v-if="toggleModal" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black  bg-opacity-70">
+          <div class="relative mx-auto w-10/12 sm:w-8/12 border border-transparent rounded-lg shadow-lg">
+            <div class=" rounded-lg shadow-xl">
+              <video playsinline autoplay loop>
+                <source src="../assets/NE Hub Walk Through Video.mp4" type="video/mp4">
+              </video>
             </div>
+            <button class="absolute top-0 right-0 text-white hover:text-lilac-light focus:outline-none" @click ="toggleModal =!toggleModal" >
+              <svg class="stroke-current text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
           </div>
         </div>
         </div>

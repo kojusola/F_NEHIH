@@ -2,9 +2,13 @@
     <div>
         <Header/>
         <div class="w-full">
-            <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-                <p class="text-center">Contact Us</p>
-            </div>
+            <div class="banner relative w-full bg-dark d-flex items-center opacity-100">
+        <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
+          <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
+            <p class=" text-lg sm:text-3xl  font-bold text-white">Contact us</p>
+          </div>
+        </div>
+      </div> 
               <div class="w-full">
                 <div class="mx-8 sm:w-9/12 block my-8 sm:mx-auto sm:flex sm:justify-between">
                     <div class="sm:w-5/12 block justify-center">
@@ -65,6 +69,25 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+ .banner {
+  height: 300px;
+  background-image: url("../assets/background/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p.sub-heading{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.thumbnail {
+  min-height: 120px;
+  height: max-content;
+}
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 </style>

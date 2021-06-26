@@ -17,16 +17,16 @@
             </svg>
             <p class="text-gray-500 text-sm ml-2 ">info@humanitarianihub.org</p>
           </div>
-                    <div class="flex w-full mt-3">
+            <div class="flex w-full mt-3">
             <button class="w-1/2 p-2  rounded-lg bg-lilac-light border border-transparent hover:bg-white hover:border hover:border-gray-500 text-white hover:text-black" @click ="toggleModal1 =!toggleModal1">Contact Us</button>
-             <div v-if="toggleModal1" class=" fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+             <div v-if="toggleModal1" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
                 <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
                   <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
                     <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal1 =!toggleModal1" >
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                     </button>
-                    <form  class="mb-4 lg:my-8 text-left mx-auto bg-white sm:my-0  text-gray-600 font-medium">
-                      <p class="pb-4 lg:pb-6 text-lilac-light text-lg text-center">Contact Us</p>
+                    <form  class="mb-4 xl:my-8 text-left mx-auto bg-white sm:my-0  text-gray-600 font-medium">
+                      <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center">Contact Us</p>
                       <div class="w-full">
                           <label for="name" class="">Name</label>
                           <input type="text" class="w-full mt-3 rounded-md p-2 bg-gray-200 outline-none border border-transparent focus:border-gray-200  focus:bg-white">
@@ -97,6 +97,9 @@ export default {
 };
 </script>
 
-<style>
-
+<style scoped>
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 </style>

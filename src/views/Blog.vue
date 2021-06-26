@@ -2,9 +2,13 @@
   <div>
       <Header/>
       <div class="">
-          <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-            <p class="topic text-center">Blog</p>
+          <div class="banner relative w-full bg-dark d-flex items-center opacity-100">
+        <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
+          <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
+            <p class=" text-xl sm:text-3xl  font-bold text-white">Blog</p>
           </div>
+        </div>
+      </div>
           <div class="w-11/12 sm:w-10/12 mx-auto">
               <div class="w-full py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">  
                 <a href="/singleblog">
@@ -38,7 +42,7 @@
                     </div>
                 </a>
                 <a href="/singleblog">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-2xl">
+                    <div class="max-w-sm mt-4 sm:mt-0 rounded overflow-hidden shadow-lg hover:shadow-2xl">
                     <img class="w-full" src="../assets/blog.jpeg" alt="Mountain">
                     <div class="px-6 py-4">
                         <div class="topic font-bold text-sm text-lilac-light mb-2">NEHIH Partners with Google to host CS first unplugged workshop for school teachers</div>
@@ -88,6 +92,13 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
+ .banner {
+  height: 300px;
+  background-image: url("../assets/background/blog1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .topic{
   font-family: 'Josefin Sans', sans-serif;
 }

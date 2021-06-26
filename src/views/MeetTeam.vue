@@ -1,16 +1,20 @@
 <template>
     <div>
         <Header/>
-        <div>
-            <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-                <p class="text-center">Meet The Team</p>
+        <div class="mb-3">
+            <div class="banner relative w-full bg-dark d-flex items-center opacity-100">
+            <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
+            <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
+                <p class="text-xl sm:text-3xl  font-bold text-white">Meet The Team</p>
             </div>
+            </div>
+        </div> 
             <div class="w-10/12 mx-auto mb-8 flex flex-col sm:flex-row flex-shrink-0 flex-wrap jusify-center justify-between">
                 <div class="w-11/12 sm:w-3/12 mx-8 items-center justify-center text-center">
-                        <div class="w-full flex mx-auto items-center">
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal1 =!toggleModal1">
                             <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                                    <titl>Ahmed Tijjani Modibbo</titl>
+                                    <title>Ahmed Tijjani Modibbo</title>
                                     <desc>This is an image description</desc>
                                     <defs>
                                     <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
@@ -28,6 +32,19 @@
                                     </g>
                                 </svg>
                                 </figure>
+                        </button>
+                        <div v-if="toggleModal1" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal1 =!toggleModal1" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Ahmed Tijjani Modibbo</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="w-full mx-auto justify-center">
                             <p class="text-lg text-lilac-light font-semibold">Ahmed Tijjani Modibbo</p>
@@ -49,26 +66,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32  my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Mary Nguveren Igbazua</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-2-removebg-preview.png" />
-                            </g>
-                        </svg>
+                    <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal2 =!toggleModal2">
+                        <figure class="h-32 w-32  my-5 mx-auto text-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                <title>Mary Nguveren Igbazua</title>
+                                <desc>This is an image description</desc>
+                                <defs>
+                                <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                    <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                </clipPath>
+                                <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                    <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                </clipPath>
+                                </defs>
+                                <!-- Background image -->
+                                <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                <!-- Foreground image -->
+                                <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-2-removebg-preview.png" />
+                                </g>
+                            </svg>
                         </figure>
+                    </button>
+                        <div v-if="toggleModal2" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal2 =!toggleModal2" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Mary Nguveren Igbazua</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Mary Nguveren Igbazua</p>
                             <p class="font-light text-sm">Co-Founder/Head of Innovation</p>
@@ -89,26 +121,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Radeno Randy Haniel</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-4-removebg-preview.png" />
-                            </g>
-                        </svg>
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal3 =!toggleModal3">
+                        <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                <title>Radeno Randy Haniel</title>
+                                <desc>This is an image description</desc>
+                                <defs>
+                                <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                    <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                </clipPath>
+                                <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                    <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                </clipPath>
+                                </defs>
+                                <!-- Background image -->
+                                <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                <!-- Foreground image -->
+                                <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-4-removebg-preview.png" />
+                                </g>
+                            </svg>
                         </figure>
+                        </button>
+                            <div v-if="toggleModal3" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal3 =!toggleModal3" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Radeno Randy Haniel</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Radeno Randy Haniel</p>
                             <p class="font-light text-sm">Media & Communications Manager</p>
@@ -129,26 +176,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Sesugh Angeer</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-5-removebg-preview.png" />
-                            </g>
-                        </svg>
-                        </figure>
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal4 =!toggleModal4">
+                            <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                    <title>Sesugh Angeer</title>
+                                    <desc>This is an image description</desc>
+                                    <defs>
+                                    <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                        <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                    </clipPath>
+                                    <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                        <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                    </clipPath>
+                                    </defs>
+                                    <!-- Background image -->
+                                    <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                    <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                    <!-- Foreground image -->
+                                    <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-5-removebg-preview.png" />
+                                    </g>
+                                </svg>
+                            </figure>
+                        </button>
+                        <div v-if="toggleModal4" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal4 =!toggleModal4" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Sesugh Angeer</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Sesugh Angeer</p>
                             <p class="font-light text-sm">Head of Programmes</p>
@@ -169,26 +231,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Sadiya Halidu</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-9-removebg-preview.png" />
-                            </g>
-                        </svg>
-                        </figure>
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal5 =!toggleModal5">
+                            <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                    <title>Sadiya Halidu</title>
+                                    <desc>This is an image description</desc>
+                                    <defs>
+                                    <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                        <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                    </clipPath>
+                                    <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                        <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                    </clipPath>
+                                    </defs>
+                                    <!-- Background image -->
+                                    <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                    <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                    <!-- Foreground image -->
+                                    <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-9-removebg-preview.png" />
+                                    </g>
+                                </svg>
+                            </figure>
+                        </button>
+                        <div v-if="toggleModal5" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal5 =!toggleModal5" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Sadiya Halidu</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Sadiya Halidu</p>
                             <p class="font-light text-sm">Resource Officer</p>
@@ -209,26 +286,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Zion Iliya</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-10-removebg-preview.png" />
-                            </g>
-                        </svg>
-                        </figure>
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal6 =!toggleModal6">
+                            <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                    <title>Zion Iliya</title>
+                                    <desc>This is an image description</desc>
+                                    <defs>
+                                    <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                        <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                    </clipPath>
+                                    <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                        <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                    </clipPath>
+                                    </defs>
+                                    <!-- Background image -->
+                                    <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                    <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                    <!-- Foreground image -->
+                                    <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-10-removebg-preview.png" />
+                                    </g>
+                                </svg>
+                            </figure>
+                        </button>
+                            <div v-if="toggleModal6" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal6 =!toggleModal6" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center">Zion Iliya</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Zion Iliya</p>
                             <p class="font-light text-sm">Facility Manager</p>
@@ -249,26 +341,41 @@
                         </div>
                 </div>
                 <div class="w-11/12 sm:w-3/12 mx-4 items-center justify-center text-center">
-                    <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
-                            <title>Abiodun Ogunjimi</title>
-                            <desc>This is an image description</desc>
-                            <defs>
-                            <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
-                                <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
-                            </clipPath>
-                            <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
-                                <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
-                            </clipPath>
-                            </defs>
-                            <!-- Background image -->
-                            <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-                            <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
-                            <!-- Foreground image -->
-                            <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-6-removebg-preview.png" />
-                            </g>
-                        </svg>
-                        </figure>
+                        <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal7 =!toggleModal7">
+                             <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">
+                                    <title>Abiodun Ogunjimi</title>
+                                    <desc>This is an image description</desc>
+                                    <defs>
+                                    <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
+                                        <path d="M100 63A50 50 0 110 70C0 42 20 0 48 0c27 0 52 42 52 70z" />
+                                    </clipPath>
+                                    <clipPath id="maskBackground" clipPathUnits="userSpaceOnUse">
+                                        <path d="M190 101a50 50 0 01-50 50 50 50 0 01-50-50 50 50 0 0150-50 50 50 0 0150 50z" />
+                                    </clipPath>
+                                    </defs>
+                                    <!-- Background image -->
+                                    <g clip-path="url(#maskImage)" transform="translate(0 -7)">
+                                    <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38" href="../assets/meetTeam/background.png" transform="translate(-90 -31)" />
+                                    <!-- Foreground image -->
+                                    <image x="-15" y="0" fill="none" class="h-32 w-32 image__foreground" href="../assets/meetTeam/team-6-removebg-preview.png" />
+                                    </g>
+                                </svg>
+                             </figure>
+                        </button>
+                        <div v-if="toggleModal7" class="fixed overflow-x-hidden overflow-y-auto inset-0 flex justify-center items-center z-50 bg-black bg-opacity-70">
+                            <div class="relative mx-auto w-10/12 sm:w-6/12 border border-transparent rounded-lg shadow-lg">
+                            <div class="p-6 pt-3 bg-white rounded-lg shadow-xl">
+                                <button class="absolute top-0 right-0 hover:text-lilac-light focus:ouline-none" @click ="toggleModal7 =!toggleModal7" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </button>
+                                <div>
+                                    <p class="topic pb-4 lg:pb-6 text-lilac-light text-lg text-center"> Abiodun Ogunjimi</p>
+                                    <p class="font-normal text-sm text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perferendis a maxime accusantium veritatis, molestias, quibusdam eveniet incidunt quidem saepe iure necessitatibus omnis perspiciatis quis est maiores consequuntur facilis beatae.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <p class="text-lg text-lilac-light font-semibold">Abiodun Ogunjimi</p>
                             <p class="font-light text-sm">Finance Officer</p>
@@ -302,11 +409,42 @@ export default {
  components: {
     Header,
     Footer
-  }
+  },
+  data(){
+    return {
+      toggleModal1: false,
+      toggleModal2: false,
+      toggleModal3: false,
+      toggleModal4: false,
+      toggleModal5: false,
+      toggleModal6: false,
+      toggleModal7: false,
+      }
+    },
 }
 </script>
 
 <style>
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+ .banner {
+  height: 300px;
+  background-image: url("../assets/background/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p.sub-heading{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.thumbnail {
+  min-height: 120px;
+  height: max-content;
+}
+.topic{
+  font-family: 'Josefin Sans', sans-serif;
+}
 .image {
   transform: scale(0.9, 0.9);
   transition: transform 0.2s ease-in;

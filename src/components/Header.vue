@@ -57,7 +57,7 @@
                   <a href="/workspace" class="block ml-5 font-normal text-left  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Co-Working Space</a>
                 </div>
                 <a href="/meet-team" class="text-left  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Meet The Team</a>
-                <a href="/#" class="text-left  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Join NEHIH</a>
+                <a href="/join" class="text-left  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Join NEHIH</a>
                 <a href="/contact" class="text-left  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Contact Us</a>
                 <a href="/blog" class="text-left hidden lg:block px-3 py-1 text-gray-400 hover:bg-gray-800 lg:px-2 lg:text-white lg:hover:text-gray-400">Blog</a>
                 <a href="/blog" class="text-left lg:hidden block  mt-1 text-gray-400 lg:mt-0 px-3 py-1 hover:bg-gray-800 lg:px-2 lg:ml-2 lg:text-white lg:hover:text-gray-400">Blog</a>

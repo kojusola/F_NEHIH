@@ -13,6 +13,7 @@ import Blog from '../views/Blog.vue';
 import SingleBlog from '../views/SingleBlog.vue';
 import Workspace from '../views/workspace/index.vue';
 import Cyberspace from '../views/workspace/cyberspace.vue';
+import Join from '../views/join.vue';
 
 Vue.use(VueRouter)
 
@@ -89,6 +90,11 @@ const routes = [
     path: '/workspace/cyberspace',
     name: 'cyberspace',
     component:Cyberspace
+  },
+  {
+    path: '/join',
+    name: 'Join',
+    component:Join
   },
 ]
 

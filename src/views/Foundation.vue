@@ -1,16 +1,19 @@
 <template>
   <div class="w-full">
     <Header/>
-      <div class=" flex h-36 bg-lilac-light justify-center text-2xl font-md text-gray-900 bg-opacity-30 items-center">
-        <p class="topic text-center">The Humanitarian Innovation Foundation (HIF)</p>
-      </div>
-      <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
-        <p class="my-1">The Humanitarian Innovation Foundation (HIF) is a Non-profit Organization duly registered with Corporate Affairs Corporation of Nigeria. Part of the core objectives of The Humanitarian Innovation Foundation is the socio-economic empowerment of women and youth groups in particular and the society in general.</p>
+      <div class="banner relative w-full bg-dark d-flex items-center opacity-100">
+        <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
+          <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
+            <p class=" text-lg sm:text-3xl  font-bold text-white">The Humanitarian Innovation Foundation (HIF)</p>
+          </div>
+        </div>
+      </div> 
+      <div class="w-11/12 sm:w-9/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
         <p class="my-1">The Humanitarian Innovation Fund supports organisations and individuals to identify, nurture and share innovative and scalable solutions to the challenges facing The North-East region.</p>
-        <p class="my-1">We Aim to improve outcomes for people affected by humanitarian crises in North-East Nigeria by identifying, nurturing and sharing more effective and scalable solutions. It now leads the way in funding, supporting, and managing innovation at every stage of the innovation process.</p>
         <p class="my-1">The HIF’s portfolio of funded projects has informed a more detailed understanding of what successful innovation looks like, and what it can achieve for the humanitarian ecosystem.</p>
       </div>
-      <div class="w-8/12 mx-auto">
+      <div class="w-11/12 sm:w-9/12 mx-auto">
+        <p class="topic text-lilac-light text-4xl font-bold p-4 sm:p-0">Programs</p>
         <div class="block sm:flex my-2 justify-between items-center">
          <div class="flex sm:w-3/6 justify-between">
             <svg class="w-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -77,6 +80,13 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+ .banner {
+  height: 300px;
+  background-image: url("../assets/background/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .topic{
   font-family: 'Josefin Sans', sans-serif;
