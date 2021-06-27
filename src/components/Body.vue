@@ -31,7 +31,7 @@
             <div class="w-72 sm:w-96 h-56 mx-auto">
               <img class="h-56 w-72 sm:w-96" src="../assets/undraw_Process_re_gws7.svg" alt="">
             </div>
-            <div class="w-80 sm:w-96 mx-auto">
+            <div class="w-72 sm:w-96 mx-auto">
               <p class="topic text-lilac-light text-3xl py-3 font-semibold">We Inspire</p>
               <p class="text-left text-black font-thin  text-sm text-normal text-left  leading-loose">Get inspired by deep, genuine insights, engage with peers in a serene environment creating opportunities that will affect you directly.</p>
             </div>
@@ -44,7 +44,7 @@
                 <p class="topic text-lilac-light text-3xl py-3 font-semibold">We Educate</p>
                 <p class="text-left text-black font-thin  text-sm text-normal text-left leading-loose">We equip youths in North-East with skills to succeed in today’s economy, tackling unemployment by partnering with individuals and organisations.</p>
               </div>
-              <div class="hidden sm:block w-80 sm:w-96 h-56 ">
+              <div class="hidden sm:block w-72 sm:w-96 h-56 ">
                 <img class="h-56 w-72 sm:w-96" src="../assets/undraw_education_f8ru (1).svg" alt="">
               </div>
           </div>
@@ -85,7 +85,7 @@
           </div>
         </div>
       </div>
-       <div class="w-11/12 sm:w-10/12 mx-auto my-10">
+       <div class="w-10/12 sm:w-10/12 mx-auto my-10">
               <p class="topic text-lilac-light text-4xl font-bold p-4 pb-8 sm:p-0">Partners</p>
               <div class="hidden sm:flex flex-wrap space-x-10 space-y-5">
                 <div class="w-24 ml-10 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
@@ -163,50 +163,50 @@
               </div>
                <div class="block sm:hidden w-full items-center">
                  <VueSlickCarousel v-bind="slickOptions" >
-                    <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/A.jpg" alt="">
+                    <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/A.jpg" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/AIME.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/AIME.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/aun-logo-og.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/aun-logo-og.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/ge.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/ge.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/BC.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/BC.png" alt="">
                 </div>
-                 <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/butterfly.png" alt="">
+                 <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/butterfly.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/care.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/care.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/Cisco_logo.svg.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/Cisco_logo.svg.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/eu-logo.jpg" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/eu-logo.jpg" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/foundacion.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/foundacion.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/giz-logo.jpg" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/giz-logo.jpg" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/google.jpg" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/google.jpg" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/ICRC_logo_Red_Cross.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/ICRC_logo_Red_Cross.png" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/ncdmb.jpg" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/ncdmb.jpg" alt="">
                 </div>
-                <div class="w-24 shadow-lg hover:shadow-2xl hover:w-30 hover:h-30">
-                  <img class="h-24 w-24" src="../assets/PatnersLogo/nsip.png" alt="">
+                <div class="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../assets/PatnersLogo/nsip.png" alt="">
                 </div>
                 </VueSlickCarousel>
                </div>

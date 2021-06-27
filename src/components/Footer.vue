@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 footer">
-     <div class="block md:flex md:justify-between md:items-center md:w-full py-5 px-7">
+     <div class="w-11/12 mx-auto sm:w-full block md:flex md:justify-between md:items-center md:w-full py-5 md:px-7">
       <div class=" md:w-1/3 px-5">
           <p class="text-md font-bold text-left ">Contact</p>
           <div class="flex">

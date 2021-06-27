@@ -11,7 +11,7 @@
             </div>
           </div>
           </div>
-          <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
+          <div class="w-11/12 sm:w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
             <div class="flex text-sm justify-between py-2">
               <div class="inline-block flex text-gray-500 space-x-2">
                   <svg  class="stroke-current text-gray-500 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -33,7 +33,7 @@
             The Programmes Manager of the NEHIH, Sesugh Angeer reiterated that this would further Unravel and boost the interest of Junior secondary school students in considering disciplines in the area of STEM and Computer Science fields. He encouraged the participants to leverage on the CS First Unplugged Programme to explore other areas of Coding and machine learning to complement the effort NEHIH is making to support STEM and Quality Education in Adamawa State and North East Nigeria at Large.
             </p>
             <div class="flex space-x-10">
-              <img class="w-96 my-6" src="../assets/blog.jpeg" alt="">
+              <img class="w-11/12 sm:w-96 my-6" src="../assets/blog.jpeg" alt="">
             </div>
             <div class="text-sm">
               <div class="stroke-current text-gray-500 mt-2 text-sm flex text-gray-200 space-x-2">
