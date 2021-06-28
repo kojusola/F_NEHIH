@@ -10,7 +10,7 @@
             </div>
         </div> 
             <div class="w-10/12 mx-auto mb-8 flex flex-col sm:flex-row flex-shrink-0 flex-wrap jusify-center justify-between">
-                <div class="w-11/12 sm:w-3/12 mx-8 items-center justify-center text-center">
+                <div class="w-11/12 sm:w-3/12  mx-auto sm:mx-8 items-center justify-center text-center">
                         <button class="w-full flex mx-auto items-center focus:outline-none" @click ="toggleModal1 =!toggleModal1">
                             <figure class="h-32 w-32 my-5 mx-auto text-center items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" class="image" aria-hidden="true">

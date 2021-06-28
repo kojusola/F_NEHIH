@@ -33,7 +33,7 @@
             The Programmes Manager of the NEHIH, Sesugh Angeer reiterated that this would further Unravel and boost the interest of Junior secondary school students in considering disciplines in the area of STEM and Computer Science fields. He encouraged the participants to leverage on the CS First Unplugged Programme to explore other areas of Coding and machine learning to complement the effort NEHIH is making to support STEM and Quality Education in Adamawa State and North East Nigeria at Large.
             </p>
             <div class="flex space-x-10">
-              <img class="w-11/12 sm:w-96 my-6" src="../assets/blog.jpeg" alt="">
+              <img class="w-11/12 sm:w-96 h-96 sm:h-auto my-6" src="../assets/blog.jpeg" alt="">
             </div>
             <div class="text-sm">
               <div class="stroke-current text-gray-500 mt-2 text-sm flex text-gray-200 space-x-2">

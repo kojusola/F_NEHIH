@@ -15,7 +15,7 @@
       <div class="w-11/12 sm:w-9/12 mx-auto">
         <p class="topic text-lilac-light text-4xl font-bold p-4 sm:p-0">Programs</p>
         <div class="block sm:flex my-2 justify-between items-center">
-         <div class="flex sm:w-3/6 justify-between">
+         <div class="flex w-full sm:w-3/6 justify-between">
             <svg class="w-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <clipPath id="myClipPath">
@@ -51,7 +51,7 @@
                   <p class="my-1">A series of activities ranging from secondary school quiz Competitions, Peace Walk and Webinars were held to commemorate the “16 Days of Advocacy 2020”.</p>
               </div>
           </div>
-          <div class="hidden sm:block sm:w-3/6 justify-between">
+          <div class="hidden sm:block w-full sm:w-3/6 justify-between">
             <svg class="w-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <clipPath id="myClipPath">

@@ -5,7 +5,7 @@
           <div class="bgimage relative w-full bg-dark d-flex items-center opacity-100">
           <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
             <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
-              <p class=" text-lg sm:text-3xl  font-bold text-white">Cyberspace</p>
+              <p class=" text-lg sm:text-3xl  font-bold text-white">Founders Private</p>
             </div>
           </div>
         </div>
@@ -17,22 +17,22 @@
                   :focusOnSelect="true"
                   >
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 </VueSlickCarousel>
                </div>
@@ -42,60 +42,67 @@
                 :asNavFor="$refs.c1"
                 :focusOnSelect="true">
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 </VueSlickCarousel>
                </div>
-               <div class="w-10/12 block sm:hidden mx-auto mb-5">
+                <div class="w-10/12 block sm:hidden mx-auto mb-5">
                  <VueSlickCarousel v-bind="slickOptions3"
                   >
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/founders-private.jpeg" alt="">
                 </div>
                 </VueSlickCarousel>
                </div>
           </div>
           </div>
             <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
-                 <p class="text-xl topic text-lilac-light">Benefits:</p>
-                 <ul class="">
-                     <li class="my-1">Business Address</li>
-                     <li class="my-1">3hrs Conference Room per month</li>
-                     <li class="my-1">Front desk Service</li>
-                     <li class="my-1">Mail Service</li>
-                     <li class="my-1">Open events</li>
-                 </ul>
-                  <p class="text-xl topic text-lilac-light">Fees: &#8358; 50,000 yearly</p>    
+            <div class="">
+                    <p class="text-xl topic text-lilac-light">Benefits:</p>
+                    <ul class="">
+                        <li class="my-1"> Workspace</li>
+                        <li class="my-1">Internet Access</li>
+                        <li class="my-1">Lounge Access</li>
+                        <li class="my-1">Sports & Recreational Access</li>
+                        <li class="my-1">Telephone Service</li>
+                        <li class="my-1">Business Address/Mail Service</li>
+                        <li class="my-1">4 hrs Training Room</li>
+                        <li class="my-1">6 hrs Conference Room</li>
+                        <li class="my-1">Signage Display</li>
+                        <li class="my-1">Open events</li>
+                    </ul>
+                    <p class="text-xl topic text-lilac-light">Fees: &#8358; 90,000 Monthly </p>   
+            </div> 
             </div>
           </div>
       <Footer/>

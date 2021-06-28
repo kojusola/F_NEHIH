@@ -5,7 +5,7 @@
           <div class="bgimage relative w-full bg-dark d-flex items-center opacity-100">
           <div class="aboslute flex items-center top-0 w-full h-full bg-black bg-opacity-80 bottom-0">
             <div class="text-center  hero text-light mx-auto py-20 space-y-3 animate-fade-in-down">
-              <p class=" text-lg sm:text-3xl  font-bold text-white">Cyberspace</p>
+              <p class=" text-lg sm:text-3xl  font-bold text-white">Campus Pass</p>
             </div>
           </div>
         </div>
@@ -17,19 +17,19 @@
                   :focusOnSelect="true"
                   >
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
                   <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
@@ -42,42 +42,42 @@
                 :asNavFor="$refs.c1"
                 :focusOnSelect="true">
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
                   <img class="h-24 w-24 shadow-lg hover:shadow-2xl" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 </VueSlickCarousel>
                </div>
-               <div class="w-10/12 block sm:hidden mx-auto mb-5">
+                <div class="w-10/12 block sm:hidden mx-auto mb-5">
                  <VueSlickCarousel v-bind="slickOptions3"
                   >
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64" src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64" src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
-                  <img class="h-64 w-64 " src="../../assets/workspace/lounge.jpg" alt="">
+                  <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
                 </div>
                 <div class="">
                   <img class="h-64 w-64 " src="../../assets/workspace/space-1.jpeg" alt="">
@@ -87,15 +87,35 @@
           </div>
           </div>
             <div class="w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
-                 <p class="text-xl topic text-lilac-light">Benefits:</p>
-                 <ul class="">
-                     <li class="my-1">Business Address</li>
-                     <li class="my-1">3hrs Conference Room per month</li>
-                     <li class="my-1">Front desk Service</li>
-                     <li class="my-1">Mail Service</li>
-                     <li class="my-1">Open events</li>
-                 </ul>
-                  <p class="text-xl topic text-lilac-light">Fees: &#8358; 50,000 yearly</p>    
+            <div class="flex">
+                <div class="w-1/2">
+                    <p class="text-center text-xl topic text-lilac-light">Daily</p>
+                    <p class="text-xl topic text-lilac-light">Benefits:</p>
+                    <ul class="">
+                        <li class="my-1">One day workspace use</li>
+                        <li class="my-1">Internet Access</li>
+                        <li class="my-1">Lounge Access</li>
+                        <li class="my-1">Sports & Recreational Access</li>
+                        <li class="my-1">Open events</li>
+                    </ul>
+                    <p class="text-xl topic text-lilac-light">Fees: &#8358; 1,000 (student 50%)</p> 
+                </div>
+                <div class="w-1/2">
+                    <p class=" text-center text-xl topic text-lilac-light">Monthly</p>
+                    <p class="text-xl topic text-lilac-light">Benefits:</p>
+                    <ul class="">
+                        <li class="my-1">Workspace</li>
+                        <li class="my-1">Internet Access</li>
+                        <li class="my-1">Lounge Access</li>
+                        <li class="my-1">Sports & Recreational Access</li>
+                        <li class="my-1">Business Address/Mail Service</li>
+                        <li class="my-1">2hrs Training Room</li>
+                        <li class="my-1">3 hrs Conference Room</li>
+                        <li class="my-1">Open events</li>
+                    </ul>
+                    <p class="text-xl topic text-lilac-light">Fees: &#8358; 30,000 (student 50%)</p>   
+                </div>
+            </div> 
             </div>
           </div>
       <Footer/>

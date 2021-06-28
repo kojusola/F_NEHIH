@@ -13,6 +13,13 @@ import Blog from '../views/Blog.vue';
 import SingleBlog from '../views/SingleBlog.vue';
 import Workspace from '../views/workspace/index.vue';
 import Cyberspace from '../views/workspace/cyberspace.vue';
+import BoardRoom from '../views/workspace/boardRoom.vue';
+import CampusPass from '../views/workspace/campusPass.vue';
+import FoundersPrivate from '../views/workspace/foundersPrivate.vue';
+import FreelanceDesk from '../views/workspace/freelanceDesk.vue';
+import OpenLounge from '../views/workspace/openLounge.vue';
+import Outdoor from '../views/workspace/outdoorEventCenter.vue';
+import TrainingRoom from '../views/workspace/trainingRoom.vue';
 import Join from '../views/join.vue';
 
 Vue.use(VueRouter)
@@ -90,6 +97,37 @@ const routes = [
     path: '/workspace/cyberspace',
     name: 'cyberspace',
     component:Cyberspace
+  },
+  {
+    path: '/workspace/boardroom',
+    name: 'boardRoom ',
+    component:BoardRoom 
+  },
+  {
+    path: '/workspace/campus-pass',
+    name: 'campusPass',
+    component:CampusPass 
+  }, 
+  {
+    path: '/workspace/founders-private',
+    name: 'foundersPrivate',
+    component:FoundersPrivate
+  }, {
+    path: '/workspace/freelance-desk',
+    name: 'freelanceDesk ',
+    component:FreelanceDesk 
+  }, {
+    path: '/workspace/open-lounge',
+    name: 'openLounge',
+    component:OpenLounge
+  }, {
+    path: '/workspace/outdoor',
+    name: 'outdoor',
+    component: Outdoor 
+  }, {
+    path: '/workspace/training-room',
+    name: 'trainingRoom',
+    component:TrainingRoom
   },
   {
     path: '/join',
