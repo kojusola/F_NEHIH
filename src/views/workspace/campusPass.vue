@@ -86,7 +86,7 @@
                </div>
           </div>
           </div>
-            <div class="w-10/12 sm:w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
+            <div class="w-10/12 mb-4 sm:w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
             <div class="block sm:flex">
                 <div class="sm:w-1/2">
                     <p class="text-center text-xl topic text-lilac-light">Daily</p>
@@ -100,7 +100,7 @@
                     </ul>
                     <p class="text-xl topic text-lilac-light">Fees: &#8358; 1,000 (student 50%)</p> 
                 </div>
-                <div class="sm:w-1/2">
+                <div class="sm:w-1/2 mt-4 sm:mt-0">
                     <p class=" text-center text-xl topic text-lilac-light">Monthly</p>
                     <p class="text-xl topic text-lilac-light">Benefits:</p>
                     <ul class="">

@@ -88,7 +88,7 @@
                </div>
           </div>
           </div>
-            <div class="w-10/12 sm:w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
+            <div class="w-10/ mb-4 sm:w-8/12 my-5 mx-auto text-sm text-normal text-left text-justify leading-loose">
             <div class="block sm:flex">
                 <div class=" sm:w-1/2">
                      <p class="text-xl topic text-lilac-light text-center"> Training Room</p>    
@@ -96,7 +96,7 @@
                      <p class="text-xl topic text-lilac-light">    &#8358; 35,000 daily</p>    
                      <p class="text-xl topic text-lilac-light">    &#8358; 6,000 hourly</p> 
                 </div>
-                <div class="sm:w-1/2">
+                <div class="sm:w-1/2 mt-4 sm:mt-0">
                      <p class="text-xl topic text-lilac-light text-center">Computer Training Room</p>    
                      <p class="text-xl topic text-lilac-light">Fees: </p>    
                      <p class="text-xl topic text-lilac-light">    &#8358; 50,000 daily</p>    
